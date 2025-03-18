@@ -2,7 +2,8 @@
 const App = () => {
   return (
     <>
-      <h1>App</h1>
+      <h1 className="text-7xl font-black">Hola Mundo</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, debitis!</p>
     </>
   )
 }
