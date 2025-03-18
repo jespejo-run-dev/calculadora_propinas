@@ -4,9 +4,13 @@ import type {OrderItem} from "../types"
 export default function useOrder() {
 
     const [order, setOrder] = useState<OrderItem[]>([]);
-    const [total, setTotal] = useState(0);
     
-    return {
+    const additem = () => {
+        console.log('agregando...');
+        
+    }
 
+    return {
+        additem
     }
 }
