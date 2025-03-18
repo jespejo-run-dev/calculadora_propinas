@@ -2,8 +2,11 @@
 const App = () => {
   return (
     <>
-      <h1 className="text-7xl font-black">Hola Mundo</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, debitis!</p>
+      <div className="bg-stone-950 text-white min-h-screen">
+        <header className="border-b border-black/2 dark:border-white/30">
+          <h1 className="text-center text-2xl p-5">Calculadora de Propinas</h1>
+        </header>
+      </div>
     </>
   )
 }
